@@ -2,17 +2,20 @@ from microbit import *
 
 # display.show(Image.HAPPY)
 
-my_image01 = Image("09090:"
+# create first image, LED 0 off, 9 on full
+# and any values inbetween
+my_image01 = Image("00000:"
                    "09090:"
                    "00000:"
-                   "09990:"
-                   "90009")
+                   "60006:"
+                   "07970")
 
+# make a small change to the image
 my_image02 = Image("00000:"
-                   "09090:"
+                   "05050:"
                    "00000:"
-                   "09990:"
-                   "90009")
+                   "60006:"
+                   "07970")
 
 display.show(my_image01)
 sleep(1000)
